@@ -1,21 +1,28 @@
+// ENTRADA DE NOMBRE 
+//NOMBRE, EDAD, CARACTER
+ import java.util.Scanner; 
 
-// PARA INTERCTUAR CON EL PROGRAMA SE TIENE QUE IMPORTAR LA CLASE SCANNER
-
-import java.util.Scanner;
-
-public class EntradadeDatos {
-    
-    public static void main(String [] args){
-        
-        Scanner leer = new Scanner(System.in);
-        // SE CREA EL NOMBRE DEL OBJETO "LEER", SE CREA NUEVO OBJETO 
-        //DENTRO DE AQUÍ VAMOS A PONER EL FLUJO DE ENTRADA System.in
-        
-        System.out.println("INGRESE SU NOMBRE: ");
-        //MENSAJE PARA QUE INGRESE SU NOMBRE
-        String nombre = leer.nextLine(); 
-        // SI QUEREMOS INGRESAR UN NOMBRE DESDE TECLADO
-        System.out.println("Nombre: "+ nombre);
-                //+ nombre: LO VA A ALMACENAR LA VARIBALE NOMBRE
-    }
-}
+       public class EntradadeDatos_1{
+              public static void main(String [] args){
+                     
+                  System.out.println("ENTER YOUR NAME");
+                  
+                  Scanner leer = new Scanner(System.in);
+                  
+                  
+                  String name = leer.nextLine();
+                  
+                  System.out.println("ENTER YOUR AGE");
+                  int age = leer.nextInt();
+                  
+                  
+                  System.out.println("ENTER ANY CHARACTER");
+                  char character = leer.next().charAt(0);
+                  
+                  
+                  System.out.println("Name: "+ name);
+                  System.out.println("Age: "+ age);
+                  System.out.println("Character: "+ character);
+                  
+              }
+       }
