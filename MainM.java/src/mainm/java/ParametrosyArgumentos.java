@@ -1,0 +1,34 @@
+
+public class ParametrosyArgumentos {
+// EN ESTE CASO UNA FUNCION TIENE QUE IR DENTRO DE UNA CLASE
+
+
+    public static void main(String[] args){
+        saludar();
+        sumar(10, 40);// AL MOMENTO DE QUE YO EJECUTE LA FUNCION Y YO ESTOY ENVIANDO DATOS
+        // A ESTO ES LE LLAMA ARGUMENTOS
+    } 
+    // LO QUE VA A HACER ESTA FUNCION ES SUMAR DOS NUMEROS
+    // EN LOS PARENTESIS VOHY A DEFINIR PARAMETROS
+    //LOS PARAMETROS SE UTILIZAN CUANDO ESTAMOS DEFINIENDO UNA FUNCION
+    //CREAMOS DOS VARIBALES DE TIPO A Y B 
+    static void sumar(int a, int b){ 
+        // CUANDO DEFINES UNA FUNCION Y CREAS VARIABLES PARA RECIBIR ESOS DATOS 10 Y 40 
+        // SE LLAMAN PARAMETROS 10 VA  AIR DIRECTAMNETE A LA VARIABLE A Y B VA IR DIRECTAMENTE
+        // A LA VARIABLE B 
+        
+        int suma = a + b; // CREAMOS LA VARIBLAES SUMA POR ESO SE LE PONE INT
+        //"+ suma // acá es simplemente CONCATENAR LA VARIABLE SUMA
+        System.out.println("La suma es: "+suma);
+
+    }
+// ojo TIENE QUE SER INVOCADO O LLAMADO DENTRO DEL METODO MAIN
+
+    static void saludar(){ 
+// A ESTA FUNCION LO LLAMAMOS SALUDAR
+        System.out.println("HolaMundo");
+        // LA FUNCION SALUDAR TIENE QUE EJECUTARSE DENTRO DEL METODO MAIN
+    }
+   }
+
+
