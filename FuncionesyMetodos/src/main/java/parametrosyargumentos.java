@@ -1,4 +1,3 @@
-  
 public class parametrosyargumentos {
 // EN ESTE CASO UNA FUNCION TIENE QUE IR DENTRO DE UNA CLASE
 
@@ -30,7 +29,3 @@ public class parametrosyargumentos {
         // LA FUNCION SALUDAR TIENE QUE EJECUTARSE DENTRO DEL METODO MAIN
     }
    }
-
-
-
-
