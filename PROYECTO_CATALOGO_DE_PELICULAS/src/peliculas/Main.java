@@ -1,33 +1,15 @@
 
 package peliculas;
 
-import javax.swing.JOptionPane;
+import peliculas.ui.UIPeliuclas;
 
 public class Main {
 
   
     public static void main(String[] args) {
-        //ALGUNAS MODIFICACIONES
-        /*JOptionPane.ERROR_MESSAGE.     ->0
-        *JOptionPane.INFORMATION_MESSAGE.     ->1
-        *JOptionPane.WARNING_MESSAGE.     ->2
-        *JOptionPane.QUESTION_MESSAGE.     ->3
-        */
+        UIPeliuclas.interfazUsuario();
+     
         
-        
-        
-        String valor = JOptionPane.showInputDialog(
-                null, 
-                "Ingrese texto",
-                "Entrada",
-                3);
-        
-        JOptionPane.showMessageDialog(
-                null, 
-                valor,
-                "Mi mensaje",
-                JOptionPane.ERROR_MESSAGE);
-    
     
 }
     
